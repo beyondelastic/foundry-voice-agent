@@ -1,0 +1,13 @@
+# Microsoft Foundry SDK. The [voice] extra adds the WebSocket dependencies
+# (websockets + aiohttp) used by project_client.beta.voice_agents.realtime.
+azure-ai-projects[voice]>=2.7.0
+
+# Microsoft Entra ID authentication (az login locally)
+azure-identity>=1.19.0
+
+# Tiny web server that serves the lab UI and relays audio to the voice agent
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+
+# Loads settings from .env
+python-dotenv>=1.0.0
