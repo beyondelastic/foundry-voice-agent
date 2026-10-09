@@ -29,7 +29,7 @@ SCENES = {
     "microscopy": {"lights": {"power": True, "color": "blue", "brightness": 15},
                    "blinds": "closed", "music": {"playing": True, "playlist": "calm"}},
     "cleanup": {"lights": {"power": True, "color": "white", "brightness": 100},
-                "blinds": "open", "music": {"playing": True, "playlist": "upbeat"}},
+                "blinds": "open", "music": {"playing": True, "playlist": "focus"}},
     "end_of_day": {"lights": {"power": False, "color": "warm", "brightness": 40},
                    "blinds": "closed", "music": {"playing": False, "playlist": "calm"}},
 }
